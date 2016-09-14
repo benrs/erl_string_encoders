@@ -1,0 +1,1 @@
+erl_string_encoders:url_decode(Input).

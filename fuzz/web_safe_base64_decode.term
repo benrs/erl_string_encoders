@@ -1,0 +1,1 @@
+erl_string_encoders:web_safe_base64_decode(Input).

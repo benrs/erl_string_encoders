@@ -1,0 +1,2 @@
+Base64 = erl_string_encoders:web_safe_base64_encode(Input).
+erl_string_encoders:web_safe_base64_decode(Base64).
