@@ -1,3 +1,3 @@
 Base64 = erl_string_encoders:web_safe_base64_encode(Input).
 Decode = erl_string_encoders:web_safe_base64_decode(Base64).
-niffy:assert_eq(Input, Decode).
+assert:eq(Input, Decode).
