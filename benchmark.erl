@@ -26,7 +26,7 @@ exhaust_mail_box(SpawnAmount) ->
                         end
                     ) || _A <- lists:seq(1, SpawnAmount)],
                     exhaust_mail_box(SpawnAmount);
-                serial ->
+                sequential ->
                     Fun
             end
         end
